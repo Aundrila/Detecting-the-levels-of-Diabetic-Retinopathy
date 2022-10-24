@@ -1,0 +1,73 @@
+Image Level Percentage:
+	
+	Level 0 Image Percentage: 56.6192233917 %
+	Level 1 Image Percentage: 13.8445171586 %
+	Level 2 Image Percentage: 13.6720450039 %
+	Level 3 Image Percentage: 13.5640484212 %
+	Level 4 Image Percentage: 02.3001660246 %
+
+Image Level Denoising:
+
+	Level 0 Image Denoising(35,126) - 11129.685372 seconds
+	Level 1 Image Denoising(8,589)(parallel) - 3478.069475 seconds
+	Level 2 Image Denoising(8,482)(parallel) - 3583.683815 seconds
+	Level 3 Image Denoising(8,415)(parallel) - 3567.068301 seconds
+	Level 4 Image Denoising(1,427)(parallel) - 829.884664 seconds
+	Mirror Image(All Level) Denoising (62,039) - 20265.332798 seconds
+	Rotate90° Image(All Level) Denoising(62,039)(parallel) - 26724.003226 seconds
+	Rotate180° Image(All Level) Denoising(62,039)(parallel) - 27240.519207 seconds
+	Rotate270° Image(All Level) Denoising(62,039)(parallel) - 27099.986171 seconds
+
+Image Training Percentage:
+
+	1. Total Image - 62,039 - 16% Test Accuracy (Approx.)
+	   (batch_size = 25,learning rate= 0.00009)
+	
+	2. Total Image - 310195
+	   default parameters(training steps = 4000, validation batch size = 100)
+	   2018-02-22 04:33:39.045817: Step 3999: Train accuracy = 29.0%
+	   2018-02-22 04:33:39.045880: Step 3999: Cross entropy = 1.588998
+	   2018-02-22 04:33:39.211732: Step 3999: Validation accuracy = 23.0% (N=100)
+	   Final test accuracy = 18.4% (N=30968) 9 Hour (Approx.)
+	   Training Iteration = 30 minutes (Approx.)	
+        
+        3. Total Image - 310195
+	   default parameters(training steps = 4000, validation batch size = -1, learning rate = 0.00001)
+	   Train accuracy = 25.0% (Approx.)
+	   Cross entropy = 1.61 (Approx.)
+	   Validation accuracy = 19.84% (Approx.) (N=100)
+	   Final test accuracy = 19% (Approx.)
+	   Training Iteration = 3 Hour 20 minutes (Approx.)
+
+	4. Total Image - 105(All Labels 21 Image each)
+	   default parameters(training steps = 4000, Training = 80%, Validation = 10%, Testing = 10%, batch_size = 100, learning_rate = 0.01)
+	   AdamOptimizer(learning_rate = 0.001, beta1 = 0.9, beta2 = 0.999, epsilon = 1e-4, use_locking = False)
+	   2018-02-24 13:01:56.547217: Step 3999: Train accuracy = 97.0%
+	   2018-02-24 13:01:56.547286: Step 3999: Cross entropy = 0.059774
+	   2018-02-24 13:01:56.614265: Step 3999: Validation accuracy = 70.0% (N=100)
+	   Final test accuracy = 90.0% (N=10)
+	   471.227053 seconds
+
+	5. Total Image - 57080 (All Labels 11416 Image each)
+	   default parameters(training steps = 4000, Training = 80%, Validation = 10%, Testing = 10%, batch_size = 100, learning_rate = 0.01)
+	   AdamOptimizer(learning_rate = 0.001, beta1 = 0.9, beta2 = 0.999, epsilon = 1e-4, use_locking = False)
+	   2018-02-24 16:29:32.277454: Step 3999: Train accuracy = 32.0%
+           2018-02-24 16:29:32.277522: Step 3999: Cross entropy = 1.318700
+	   2018-02-24 16:29:32.344890: Step 3999: Validation accuracy = 35.0% (N=100)
+	   Final test accuracy = 35.6% (N=5685)
+           7598.019253 seconds
+
+	6. Total Image - 57080 (All Labels 11416 Image each)
+	   default parameters(training steps = 8000, Training = 80%, Validation = 10%, Testing = 10%, batch_size = 100, learning_rate = 0.01)
+	   AdamOptimizer(learning_rate = 0.001, beta1 = 0.9, beta2 = 0.999, epsilon = 1e-4, use_locking = False)
+	   2018-02-24 18:27:45.873588: Step 7999: Train accuracy = 45.0%
+	   2018-02-24 18:27:45.873658: Step 7999: Cross entropy = 1.299698
+	   2018-02-24 18:27:45.941485: Step 7999: Validation accuracy = 37.0% (N=100)
+	   Final test accuracy = 36.2% (N=5685)
+	   634.750946 seconds
+
+	7. Total Image - 57080 (All Labels 11416 Image each)
+	   default parameters(training steps = 5000, Training = 60%, Validation = 20%, Testing = 20%, batch_size = 100, learning_rate = 0.001)
+	   AdamOptimizer(learning_rate = 0.001, beta1 = 0.9, beta2 = 0.999, epsilon = 1e-8, use_locking = False)
+	   35.8%
+	

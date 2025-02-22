@@ -35,5 +35,8 @@ This project aims to automate the classification of Diabetic Retinopathy (DR) us
 - **Loss function:** Categorical Cross-entropy
 - **Optimizer:** Adam/SGD for efficient convergence
 
+**3. Training & Evaluation:**
+- Model is trained on training and validation datasets
+- Performance evaluated using **confusion matrix, accuracy, F1-score, and AUC-ROC curves**
 
 

@@ -23,4 +23,17 @@ This project aims to automate the classification of Diabetic Retinopathy (DR) us
   5. Proliferative DR
 - Images are preprocessed using contrast adjustment, resizing, and normalization before feeding into the model.
 
+## Methodology
+**1. Data Preprocessing & Augmentation**
+- **Image enhancement**: Improves visibility for retinal features
+- **Data augmentation**: Rotation, flipping and zooming to improve model generalization
+- **Normalization & resizing**: Standardizes image dimensions for model input
+
+**2. Model Development (ResNet-50)**
+- **Feature extraction:** Uses a pre-trained RresNet-50 model
+- **Full connected layers:** Added on top for classification into DR severity levels
+- **Loss function:** Categorical Cross-entropy
+- **Optimizer:** Adam/SGD for efficient convergence
+
+
 

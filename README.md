@@ -39,4 +39,7 @@ This project aims to automate the classification of Diabetic Retinopathy (DR) us
 - Model is trained on training and validation datasets
 - Performance evaluated using **confusion matrix, accuracy, F1-score, and AUC-ROC curves**
 
-
+**4. Results & Insights:**
+- Image preprocessing significantly improves classification accuracy.
+- Transfer learning with ResNet-50 helps achieve better generalization.
+- Class imbalance can be handled with data augmentation or weighted loss functions.
